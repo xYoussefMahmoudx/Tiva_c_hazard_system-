@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\youseef\asu university\fall2023\embedded\project\settings\sender.Debug.general.xcl" --backend -f "C:\youseef\asu university\fall2023\embedded\project\settings\sender.Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\settings\sender.Debug.general.xcl" --backend -f "C:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\settings\sender.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\youseef\asu university\fall2023\embedded\project\settings\sender.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\youseef\asu university\fall2023\embedded\project\settings\sender.Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\settings\sender.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\settings\sender.Debug.driver.xcl" 
 
 @echo off 
 :end
