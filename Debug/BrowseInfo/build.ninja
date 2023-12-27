@@ -1,0 +1,51 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe" $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe" $flags
+
+rule MAKEBROWSE
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe" $flags
+
+rule PDBLINK
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe" $flags
+
+
+
+#Build steps
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\youseef\asu$ university\fall2023\embedded\project\laserDiode.c" -xcl_file "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.xcl" -macro_file "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\youseef\asu$ university\fall2023\embedded\project\laserDiode.c" -o "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.tmp"
+  rspfile_name = C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.xcl.rsp
+
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\youseef\asu$ university\fall2023\embedded\project\main.c" -xcl_file "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.xcl" -macro_file "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\youseef\asu$ university\fall2023\embedded\project\main.c" -o "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.tmp"
+  rspfile_name = C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.xcl.rsp
+
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.pbi : INDEXER C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.xcl |  $
+C$:\youseef\asu$ university\fall2023\embedded\project\laserDiode.c
+  flags = "-out=C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.pbi" -f "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.xcl"
+
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.pbi : INDEXER C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.xcl |  $
+C$:\youseef\asu$ university\fall2023\embedded\project\main.c
+  flags = "-out=C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.pbi" -f "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.xcl"
+
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender.pbw : MAKEBROWSE C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender.pbd
+  flags = "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender.pbd" -output "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender.pbw"
+
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender.pbd : PDBLINK C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.pbi |  $
+C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.pbi
+  flags = -M "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender.pbd" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.pbi" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.pbi"
+
