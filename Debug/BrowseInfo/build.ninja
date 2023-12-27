@@ -24,6 +24,11 @@ rule PDBLINK
 
 
 #Build steps
+build C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\bluetoothModule.c -xcl_file C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.xcl -macro_file C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\bluetoothModule.c -o C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.tmp
+  rspfile_name = C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.xcl.rsp
+
 build C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.xcl : COMPILER_XCL 
   xclcommand = -source_file C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\laserDiode.c -xcl_file C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.xcl -macro_file C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
   flags = C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\laserDiode.c -o C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.tmp
@@ -34,6 +39,15 @@ build C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\Br
   flags = C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\main.c -o C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\main.tmp
   rspfile_name = C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\main.xcl.rsp
 
+build C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\ultrasonic.c -xcl_file C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.xcl -macro_file C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\ultrasonic.c -o C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.tmp
+  rspfile_name = C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.xcl.rsp
+
+build C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.pbi : INDEXER C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.xcl |  $
+C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\bluetoothModule.c
+  flags = -out=C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.pbi -f C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.xcl
+
 build C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.pbi : INDEXER C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.xcl |  $
 C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\laserDiode.c
   flags = -out=C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.pbi -f C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.xcl
@@ -42,10 +56,16 @@ build C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\Br
 C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\main.c
   flags = -out=C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\main.pbi -f C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\main.xcl
 
+build C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.pbi : INDEXER C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.xcl |  $
+C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\ultrasonic.c
+  flags = -out=C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.pbi -f C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.xcl
+
 build C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\sender.pbw : MAKEBROWSE C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\sender.pbd
   flags = C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\sender.pbd -output C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\sender.pbw
 
-build C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\sender.pbd : PDBLINK C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.pbi |  $
-C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\main.pbi
-  flags = -M C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\sender.pbd C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.pbi C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\main.pbi
+build C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\sender.pbd : PDBLINK C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.pbi |  $
+C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.pbi $
+C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\main.pbi $
+C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.pbi
+  flags = -M C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\sender.pbd C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.pbi C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.pbi C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\main.pbi C$:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.pbi
 

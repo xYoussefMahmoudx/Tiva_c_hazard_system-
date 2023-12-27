@@ -1,26 +1,25 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.20.4.327/W64 for ARM                  27/Dec/2023  15:37:45
+# IAR ELF Linker V9.20.4.327/W64 for ARM                  27/Dec/2023  18:46:31
 # Copyright 2007-2022 IAR Systems AB.
 #
 #    Output file  =
-#        C:\youseef\asu
-#        university\fall2023\embedded\project\Debug\Exe\sender.out
+#        C:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\Exe\sender.out
 #    Map file     =
-#        C:\youseef\asu
-#        university\fall2023\embedded\project\Debug\List\sender.map
+#        C:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\List\sender.map
 #    Command line =
-#        -f "C:\youseef\asu
-#        university\fall2023\embedded\project\Debug\Exe\sender.out.rsp"
-#        ("C:\youseef\asu
-#        university\fall2023\embedded\project\Debug\Obj\laserDiode.o"
-#        "C:\youseef\asu university\fall2023\embedded\project\Debug\Obj\main.o"
-#        --no_out_extension -o "C:\youseef\asu
-#        university\fall2023\embedded\project\Debug\Exe\sender.out" --redirect
-#        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
-#        "C:\youseef\asu
-#        university\fall2023\embedded\project\Debug\List\sender.map" --config
-#        "C:\Program Files\IAR Systems\Embedded Workbench
+#        -f
+#        C:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\Exe\sender.out.rsp
+#        (C:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\Obj\bluetoothModule.o
+#        C:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\Obj\laserDiode.o
+#        C:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\Obj\main.o
+#        C:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\Obj\ultrasonic.o
+#        --no_out_extension -o
+#        C:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\Exe\sender.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        C:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\List\sender.map
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
 #        9.0\arm\config\linker\TexasInstruments\TM4C123GH6.icf" --semihosting
 #        --entry __iar_program_start --vfe --text_out locale)
 #
@@ -68,18 +67,25 @@ No sections matched the following patterns:
   .intvec   ro code          0x0    0x40  vector_table_M.o [4]
                           - 0x40    0x40
 
-"P1":                               0xfc
-  .text     ro code         0x40    0x64  laserDiode.o [1]
-  .text     ro code         0xa4    0x22  fpinit_M.o [3]
-  .text     ro code         0xc6     0x2  vectortrap_M.o [4]
-  .text     ro code         0xc8    0x1e  cmain.o [4]
-  .text     ro code         0xe6     0x4  low_level_init.o [2]
-  .text     ro code         0xea    0x12  main.o [1]
-  .text     ro code         0xfc     0x4  exit.o [2]
-  .text     ro code        0x100     0xa  cexit.o [4]
-  .text     ro code        0x10c    0x14  exit.o [5]
-  .text     ro code        0x120    0x1c  cstartup_M.o [4]
-                         - 0x13c    0xfc
+"P1":                              0x270
+  .text     ro code         0x40    0xb4  main.o [1]
+  .text     ro code         0xf4    0x96  ultrasonic.o [1]
+  .text     ro code        0x18a     0x2  vectortrap_M.o [4]
+  .text     ro code        0x18c    0x3e  bluetoothModule.o [1]
+  .text     ro code        0x1cc    0x22  fpinit_M.o [3]
+  .text     ro code        0x1f0    0x1e  cmain.o [4]
+  .text     ro code        0x20e     0x4  low_level_init.o [2]
+  .text     ro code        0x212     0x4  exit.o [2]
+  .text     ro code        0x218     0xa  cexit.o [4]
+  .text     ro code        0x224    0x14  exit.o [5]
+  .text     ro code        0x238    0x1c  cstartup_M.o [4]
+  .rodata   const          0x254    0x10  main.o [1]
+  .rodata   const          0x264    0x10  main.o [1]
+  .rodata   const          0x274    0x10  main.o [1]
+  .rodata   const          0x284    0x10  main.o [1]
+  .rodata   const          0x294    0x10  main.o [1]
+  .rodata   const          0x2a4     0xc  main.o [1]
+                         - 0x2b0   0x270
 
 "P2":                             0x1000
   CSTACK             0x2000'0000  0x1000  <Block>
@@ -90,7 +96,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-        0x13c     0x3'ffff  0x3'fec4
+        0x2b0     0x3'ffff  0x3'fd50
   0x2000'1000  0x2000'7fff    0x7000
 
 
@@ -99,89 +105,95 @@ Unused ranges:
 *** MODULE SUMMARY
 ***
 
-    Module            ro code  rw data
-    ------            -------  -------
+    Module             ro code  ro data  rw data
+    ------             -------  -------  -------
 command line/config:
-    ----------------------------------
+    --------------------------------------------
     Total:
 
-C:\youseef\asu university\fall2023\embedded\project\Debug\Obj: [1]
-    laserDiode.o          100
-    main.o                 18
-    ----------------------------------
-    Total:                118
+C:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\Obj: [1]
+    bluetoothModule.o       62
+    main.o                 180       92
+    ultrasonic.o           150
+    --------------------------------------------
+    Total:                 392       92
 
 dl7M_tln.a: [2]
-    exit.o                  4
-    low_level_init.o        4
-    ----------------------------------
-    Total:                  8
+    exit.o                   4
+    low_level_init.o         4
+    --------------------------------------------
+    Total:                   8
 
 m7M_tls.a: [3]
-    fpinit_M.o             34
-    ----------------------------------
-    Total:                 34
+    fpinit_M.o              34
+    --------------------------------------------
+    Total:                  34
 
 rt7M_tl.a: [4]
-    cexit.o                10
-    cmain.o                30
-    cstartup_M.o           28
-    vector_table_M.o       64
-    vectortrap_M.o          2
-    ----------------------------------
-    Total:                134
+    cexit.o                 10
+    cmain.o                 30
+    cstartup_M.o            28
+    vector_table_M.o        64
+    vectortrap_M.o           2
+    --------------------------------------------
+    Total:                 134
 
 shb_l.a: [5]
-    exit.o                 20
-    ----------------------------------
-    Total:                 20
+    exit.o                  20
+    --------------------------------------------
+    Total:                  20
 
-    Gaps                    2
-    Linker created               4'096
---------------------------------------
-    Grand Total:          316    4'096
+    Gaps                     8
+    Linker created                         4'096
+------------------------------------------------
+    Grand Total:           596       92    4'096
 
 
 *******************************************************************************
 *** ENTRY LIST
 ***
 
-Entry                     Address  Size  Type      Object
------                     -------  ----  ----      ------
-?main                        0xc9        Code  Gb  cmain.o [4]
-BusFault_Handler             0xc7        Code  Wk  vectortrap_M.o [4]
-CSTACK$$Base          0x2000'0000         --   Gb  - Linker created -
-CSTACK$$Limit         0x2000'1000         --   Gb  - Linker created -
-DebugMon_Handler             0xc7        Code  Wk  vectortrap_M.o [4]
-HardFault_Handler            0xc7        Code  Wk  vectortrap_M.o [4]
-MemManage_Handler            0xc7        Code  Wk  vectortrap_M.o [4]
-NMI_Handler                  0xc7        Code  Wk  vectortrap_M.o [4]
-PendSV_Handler               0xc7        Code  Wk  vectortrap_M.o [4]
-Region$$Table$$Base           0x0         --   Gb  - Linker created -
-Region$$Table$$Limit          0x0         --   Gb  - Linker created -
-SVC_Handler                  0xc7        Code  Wk  vectortrap_M.o [4]
-SysTick_Handler              0xc7        Code  Wk  vectortrap_M.o [4]
-UsageFault_Handler           0xc7        Code  Wk  vectortrap_M.o [4]
-__cmain                      0xc9        Code  Gb  cmain.o [4]
-__exit                      0x10d  0x14  Code  Gb  exit.o [5]
-__iar_init_vfp               0xa5        Code  Gb  fpinit_M.o [3]
-__iar_program_start         0x121        Code  Gb  cstartup_M.o [4]
-__low_level_init             0xe7   0x4  Code  Gb  low_level_init.o [2]
-__vector_table                0x0        Data  Gb  vector_table_M.o [4]
-_call_main                   0xd5        Code  Gb  cmain.o [4]
-_exit                       0x101        Code  Gb  cexit.o [4]
-exit                         0xfd   0x4  Code  Gb  exit.o [2]
-laserDiode                   0x41  0x64  Code  Gb  laserDiode.o [1]
-main                         0xeb  0x12  Code  Gb  main.o [1]
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+?main                         0x1f1        Code  Gb  cmain.o [4]
+Bluetooth_Read                0x18d  0x10  Code  Gb  bluetoothModule.o [1]
+Bluetooth_Write               0x19d  0x10  Code  Gb  bluetoothModule.o [1]
+Bluetooth_Write_String        0x1b5  0x16  Code  Gb  bluetoothModule.o [1]
+BusFault_Handler              0x18b        Code  Wk  vectortrap_M.o [4]
+CSTACK$$Base            0x2000'0000         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'1000         --   Gb  - Linker created -
+DebugMon_Handler              0x18b        Code  Wk  vectortrap_M.o [4]
+Delay                         0x175  0x16  Code  Gb  ultrasonic.o [1]
+HardFault_Handler             0x18b        Code  Wk  vectortrap_M.o [4]
+MemManage_Handler             0x18b        Code  Wk  vectortrap_M.o [4]
+NMI_Handler                   0x18b        Code  Wk  vectortrap_M.o [4]
+PendSV_Handler                0x18b        Code  Wk  vectortrap_M.o [4]
+Region$$Table$$Base             0x0         --   Gb  - Linker created -
+Region$$Table$$Limit            0x0         --   Gb  - Linker created -
+SVC_Handler                   0x18b        Code  Wk  vectortrap_M.o [4]
+SysTick_Handler               0x18b        Code  Wk  vectortrap_M.o [4]
+UART5_init                     0xf5  0x54  Code  Gb  ultrasonic.o [1]
+UsageFault_Handler            0x18b        Code  Wk  vectortrap_M.o [4]
+__cmain                       0x1f1        Code  Gb  cmain.o [4]
+__exit                        0x225  0x14  Code  Gb  exit.o [5]
+__iar_init_vfp                0x1cd        Code  Gb  fpinit_M.o [3]
+__iar_program_start           0x239        Code  Gb  cstartup_M.o [4]
+__low_level_init              0x20f   0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0        Data  Gb  vector_table_M.o [4]
+_call_main                    0x1fd        Code  Gb  cmain.o [4]
+_exit                         0x219        Code  Gb  cexit.o [4]
+exit                          0x213   0x4  Code  Gb  exit.o [2]
+main                           0x41  0xb4  Code  Gb  main.o [1]
 
 
-[1] = C:\youseef\asu university\fall2023\embedded\project\Debug\Obj
+[1] = C:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\Obj
 [2] = dl7M_tln.a
 [3] = m7M_tls.a
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
-    316 bytes of readonly  code memory
+    596 bytes of readonly  code memory
+     92 bytes of readonly  data memory
   4'096 bytes of readwrite data memory
 
 Errors: none
