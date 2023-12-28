@@ -1,99 +1,17 @@
 # ninja log v5
-10	353	7250584931770278	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/main.o	56802655e06ad3cf
-10	144	7250586015534844	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/main.o	56802655e06ad3cf
-0	168	7250586015674562	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	1a3900d9d7ffb817
-174	457	7250586018660418	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	5b271696f8091d69
-1	112	7250587575080279	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/main.o	4f2b7af8a20374f
-8	119	7250587575120175	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-124	193	7250587575935830	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-2	242	7250596622772070	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-247	290	7250596623299694	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-2	139	7250597354195039	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-145	200	7250597354820283	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-1	132	7250599011036617	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-138	195	7250599011704844	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-2	303	7250601160726186	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-309	363	7250601161410191	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-3	104	7250601690973894	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-110	164	7250601691599189	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-2	247	7250604893590392	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-255	325	7250604894453187	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-3	133	7250605223646047	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-139	194	7250605224289691	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-2	133	7250610378313580	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-139	201	7250610379011709	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-2	136	7250611672464590	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-142	197	7250611673072962	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-6	2199	7253813907440281	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-2206	3005	7253813915573943	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-2	256	7253820117731584	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-261	317	7253820118448756	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-1	214	7253827756378759	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-219	260	7253827756877504	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-1	105	7253828245525026	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-110	157	7253828246023885	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-132	328	7253862079565265	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-6	357	7253862079864473	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/main.o	4f2b7af8a20374f
-361	473	7253862081066484	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-2	185	7253863850144358	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/main.o	4f2b7af8a20374f
-9	217	7253863850473478	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-221	256	7253863850902337	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-1	90	7253864381093413	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-96	133	7253864381592076	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-1	176	7253868650572960	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/main.o	4f2b7af8a20374f
-9	209	7253868650901765	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-212	245	7253868651311045	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-1	90	7253869619735621	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/main.o	4f2b7af8a20374f
-94	131	7253869620174436	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-1	108	7253870001017313	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/main.o	4f2b7af8a20374f
-111	148	7253870001436195	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-1	103	7253871165651396	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-107	143	7253871166070275	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-2	180	7253872340456029	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-184	217	7253872340884889	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-1	92	7253873067564394	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-97	132	7253873067983270	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-1	108	7253874012991068	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-112	149	7253874013449848	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-2	79	7253874658412417	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/main.o	4f2b7af8a20374f
-83	116	7253874658801383	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	9637423879ed082c
-18	375	7253961330180323	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/Obj/laserDiode.o	f395a3bd26a7572b
-39	524	7253961331608260	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/Obj/ultrasonic.o	931a24c10dc2d5d5
-53	556	7253961331770896	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/Obj/main.o	c8fbf267f353d9cb
-2	117	7253961574245700	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/Obj/bluetoothModule.o	1829ef9c63437a93
-2	134	7253964229205695	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/Obj/bluetoothModule.o	1829ef9c63437a93
-3	338	7253965343913122	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/Obj/ultrasonic.o	931a24c10dc2d5d5
-4	235	7253966088470003	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/Obj/bluetoothModule.o	1829ef9c63437a93
-252	378	7253966089923403	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/Exe/sender.out	d204bec975f6bc05
-15	358	7253979284277042	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/Obj/main.o	c8fbf267f353d9cb
-1	380	7253979284470704	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/Obj/bluetoothModule.o	1829ef9c63437a93
-385	832	7253979289305907	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/Exe/sender.out	d204bec975f6bc05
-2	126	7253980010906121	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/Obj/main.o	c8fbf267f353d9cb
-136	211	7253980011699449	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/Exe/sender.out	d204bec975f6bc05
-2	249	7253982831330944	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/Obj/main.o	c8fbf267f353d9cb
-254	306	7253982832119683	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/Exe/sender.out	d204bec975f6bc05
-2	144	7253985011056997	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/Obj/main.o	c8fbf267f353d9cb
-149	212	7253985011665843	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/Exe/sender.out	d204bec975f6bc05
-2	136	7253986414771921	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/Obj/main.o	c8fbf267f353d9cb
-145	202	7253986415402802	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/Exe/sender.out	d204bec975f6bc05
-2	131	7253987909318088	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/Obj/main.o	c8fbf267f353d9cb
-137	209	7253987910049095	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/Exe/sender.out	d204bec975f6bc05
 15	333	7254751685121283	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/laserDiode.o	c0607a3399ac2d9d
-7	342	7254751685141227	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/main.o	4f2b7af8a20374f
+2	103	7254887274001201	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/main.o	4f2b7af8a20374f
+106	449	7254887277456076	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	2983dc8de2379f8
 24	369	7254751685490294	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/bluetoothModule.o	dcc73c7f6c900a63
 31	435	7254751686168476	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/ultrasonic.o	14948d391ccd0108
-442	755	7254751689414332	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	e1846c51dfd5297d
-3	269	7254777827230920	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/main.o	4f2b7af8a20374f
-2	119	7254777891990785	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/main.o	4f2b7af8a20374f
-2	119	7254777982141729	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/main.o	4f2b7af8a20374f
-124	182	7254777982779600	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	e1846c51dfd5297d
-1	118	7254778074915877	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/main.o	4f2b7af8a20374f
-123	186	7254778075588389	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	e1846c51dfd5297d
-1	109	7254778398567686	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/main.o	4f2b7af8a20374f
-114	176	7254778399239220	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	e1846c51dfd5297d
-2	260	7254780963666361	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/main.o	4f2b7af8a20374f
-265	340	7254780964485937	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	e1846c51dfd5297d
-1	253	7254782040275880	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/main.o	4f2b7af8a20374f
-259	323	7254782041003927	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	e1846c51dfd5297d
-2	171	7254782665566933	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/main.o	4f2b7af8a20374f
-180	255	7254782666454554	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	e1846c51dfd5297d
+12	1224	7254887072045605	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/fumeSensor.o	9b4579af962ef540
+3	239	7254890204389801	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/fumeSensor.o	9b4579af962ef540
+243	301	7254890205044399	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	2983dc8de2379f8
+2	117	7254891392774709	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/fumeSensor.o	9b4579af962ef540
+121	176	7254891393413002	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	2983dc8de2379f8
+1	116	7254892086734684	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/fumeSensor.o	9b4579af962ef540
+120	183	7254892087422833	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	2983dc8de2379f8
+1	219	7254894665194561	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/fumeSensor.o	9b4579af962ef540
+224	292	7254894665982462	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	2983dc8de2379f8
+2	153	7254895098158015	C:/youseef/asu university/fall2023/embedded/project/Debug/Obj/main.o	4f2b7af8a20374f
+156	224	7254895098873289	C:/youseef/asu university/fall2023/embedded/project/Debug/Exe/sender.out	2983dc8de2379f8

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>5</fileVersion>
-    <fileChecksum>3028549729</fileChecksum>
+    <fileChecksum>1061999659</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
@@ -35,6 +35,9 @@
             <file>$PROJ_DIR$\Debug\Obj\bluetoothModule.o</file>
             <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
             <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
+            <file>$PROJ_DIR$\fumeSensor.c</file>
+            <file>$PROJ_DIR$\fumeSensor.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\fumeSensor.o</file>
         </outputs>
         <file>
             <name>$PROJ_DIR$\Debug\Exe\sender.out</name>
@@ -47,7 +50,7 @@
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 29 27 15 4 17 2 7 1 3</file>
+                    <file> 29 27 32 15 4 17 2 7 1 3</file>
                 </tool>
             </inputs>
         </file>
@@ -86,7 +89,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 24 22 20 16 21 23 9 11 19 12 8 26 6 28 13</file>
+                    <file> 24 22 20 16 21 23 9 11 19 12 8 26 6 28 13 31</file>
                 </tool>
             </inputs>
         </file>
@@ -117,6 +120,21 @@
                 <tool>
                     <name>ICCARM</name>
                     <file> 24 16 20</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\fumeSensor.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 24</file>
                 </tool>
             </inputs>
         </file>
