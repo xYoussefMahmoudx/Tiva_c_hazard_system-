@@ -2110,6 +2110,12 @@
         </settings>
     </configuration>
     <file>
+        <name>$PROJ_DIR$\bluetoothModule.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\bluetoothModule.h</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\laserDiode.c</name>
     </file>
     <file>
@@ -2122,6 +2128,12 @@
         <name>$PROJ_DIR$\tm4c123gh6pm.h</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\..\labs\Embedded-Labs\types.h</name>
+        <name>$PROJ_DIR$\types.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\ultrasonic.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\ultrasonic.h</name>
     </file>
 </project>
