@@ -18,6 +18,7 @@
             <file>$PROJ_DIR$\Debug\List\sender.map</file>
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
             <file>$PROJ_DIR$\Debug\Obj\laserDiode.o</file>
+            <file>$PROJ_DIR$\bluetoothModule.c</file>
             <file>$PROJ_DIR$\..\labs\Embedded-Labs\types.h</file>
             <file>$PROJ_DIR$\types.h</file>
         </outputs>
@@ -41,7 +42,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 2 1 14</file>
+                    <file> 2 1 15</file>
                 </tool>
             </inputs>
         </file>
@@ -56,7 +57,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 2 1 14</file>
+                    <file> 2 1 15</file>
                 </tool>
             </inputs>
         </file>
