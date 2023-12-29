@@ -14,9 +14,8 @@ void ultrasonicSensorSendData();
 void magneticSensorSendData();
 void OnSendData();
 void OffSendData();
-void laserDiode(uint8 state){
-  
-  SYSCTL_RCGCGPIO_R  |= 0x08;
+void laserDiodeInit(){
+SYSCTL_RCGCGPIO_R  |= 0x08;
   while((SYSCTL_PRGPIO_R & 0x00000008) == 0){};
   
  // GPIO_PORTA_LOCK_R = 0x4C4F434B;
@@ -25,6 +24,10 @@ void laserDiode(uint8 state){
   //GPIO_PORTF_PUR_R |= 0x10;
   GPIO_PORTD_DIR_R |= 0x04;
   GPIO_PORTD_DEN_R |=  0x04;
+}
+void laserDiode(uint8 state){
+  
+  
   //GPIO_PORTA_PCTL_R &= ~0x04;
   //GPIO_PORTA_AMSEL_R &= ~0x04;
  // GPIO_PORTA_AFSEL_R &=~0x04;
@@ -74,67 +77,96 @@ uint32 SysTickValueGet(void){
 bool SysTickIsTimeOut(void){
   return (NVIC_ST_CTRL_R<<16)&1;
 }
+void delayInit() {
+    SYSCTL_RCGCTIMER_R |= 0x01;      // Enable and provide a clock to Timer Block 0 in Run mode
+}
 void delay(uint32 period){
+  TIMER0_CTL_R = 0x00;             // Disable Timer A during configuration
+    TIMER0_CFG_R = 0x00;             // 32-bit configuration
+    TIMER0_TAMR_R = 0x02;            // Configure Timer A in periodic mode
+    TIMER0_TAILR_R = 16000*period - 1;       // Load value for a 1ms delay at 16 MHz clock
+    TIMER0_CTL_R = 0x01;   // Enable Timer A with default settings
+    while ((TIMER0_RIS_R & 0x01) == 0){};   // Wait until Timer A timeout flag is set
+    TIMER0_ICR_R = 0x01;                   // Clear Timer A timeout flag
+    
+  /*
   SysTickDIsable();
   NVIC_ST_CTRL_R |=(1<<2);
   SysTickPeriodSet(period);
   NVIC_ST_CURRENT_R &= 0x00;
   SysTickEnable();
-  while(!SysTickIsTimeOut()){};
+  while(!SysTickIsTimeOut()){};*/
   
   
 }
 void fumeSensorSendData(){
   diodeOn();
-  delay(50);
+  delay(750);
   diodeOff();
-  delay(450);
+  delay(2400);
   diodeOn();
-  delay(200);
+  delay(650);
   diodeOff();
 }
 void ultrasonicSensorSendData(){
   diodeOn();
-  delay(50);
+  delay(750);
   diodeOff();
-  delay(250);
+  delay(1400);
   diodeOn();
-  delay(200);
+  delay(650);
   diodeOff();
-  delay(200);
+  delay(1100);
 }
 void magneticSensorSendData(){
   diodeOn();
-  delay(50);
+  delay(750);
   diodeOff();
-  delay(250);
+  delay(1400);
   diodeOn();
-  delay(200);
-  diodeOff();
-  diodeOn();
-  delay(200);
+  delay(1500);
   diodeOff();
 }
 void OnSendData(){
   diodeOn();
-  delay(50);
+  delay(750);
   diodeOff();
-  delay(50);
+  delay(500);
   diodeOn();
-  delay(200);
+  delay(600);
   diodeOff();
-  delay(400);
+  delay(1900);
 }
 void OffSendData(){
   diodeOn();
-  delay(50);
+  delay(750);
   diodeOff();
-  delay(50);
+  delay(500);
   diodeOn();
-  delay(200);
+  delay(600);
   diodeOff();
+  delay(1050);
   diodeOn();
-  delay(200);
+  delay(600);
   diodeOff();
-  delay(200);
+  delay(350);
+}
+void testdiode(){
+  delay(250);
+  diodeOn();
+  delay(500);
+  diodeOff();
+  delay(500);
+  diodeOn();
+  delay(500);
+  diodeOff();
+  delay(500);
+  diodeOn();
+  delay(500);
+  diodeOff();
+  delay(500);
+  diodeOn();
+  delay(500);
+  diodeOff();
+  delay(500);
 }
