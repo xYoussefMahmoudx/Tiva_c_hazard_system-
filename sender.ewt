@@ -2852,6 +2852,12 @@
         <name>$PROJ_DIR$\bluetoothModule.h</name>
     </file>
     <file>
+        <name>$PROJ_DIR$\fumeSensor.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\fumeSensor.h</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\laserDiode.c</name>
     </file>
     <file>
