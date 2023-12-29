@@ -8,6 +8,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include "fumeSensor.h"
+#include "magneticSensor.h""
 
 uint32 time; /*stores pulse on time */
 uint32 distance; /* stores measured distance value */
@@ -81,14 +82,34 @@ int main()
   
   
   
-   unsigned int adc_value;
+  // unsigned int adc_value;
+   //ADC_init();
+   
+//  while(1)
+    //{
+  //     start_sampling();
+   /* Wait untill sample conversion completed*/
+     //   adc_value = ADC0_SSFIFO3_R; /* read adc coversion result from SS3 FIFO*/
+     //   clear_sample_flag();         /* clear coversion clear flag bit*/
+			/*control Green PF3->LED */
+	//printf("%d\n",adc_value);
+  //  }
+
+  
+  
+  
+  
+  
+  
+  
+  unsigned int adc_value;
    ADC_init();
    
   while(1)
     {
        start_sampling();
    /* Wait untill sample conversion completed*/
-        adc_value = ADC0_SSFIFO3_R; /* read adc coversion result from SS3 FIFO*/
+        adc_value = ADC1_SSFIFO3_R; /* read adc coversion result from SS3 FIFO*/
         clear_sample_flag();         /* clear coversion clear flag bit*/
 			/*control Green PF3->LED */
 	printf("%d\n",adc_value);

@@ -2864,6 +2864,12 @@
         <name>$PROJ_DIR$\laserDiode.h</name>
     </file>
     <file>
+        <name>$PROJ_DIR$\magneticSensor.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\magneticSensor.h</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\main.c</name>
     </file>
     <file>

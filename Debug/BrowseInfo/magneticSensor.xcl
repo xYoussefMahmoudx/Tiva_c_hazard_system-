@@ -1,13 +1,13 @@
-"C:\Users\Owner\OneDrive\Desktop\embedded project\Tiva_c_hazard_system-\ultrasonic.c"
+"C:\Users\Owner\OneDrive\Desktop\embedded project\Tiva_c_hazard_system-\magneticSensor.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\Users\Owner\OneDrive\Desktop\embedded project\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.pbi.dep
+C:\Users\Owner\OneDrive\Desktop\embedded project\Tiva_c_hazard_system-\Debug\BrowseInfo\magneticSensor.pbi.dep
 -o
-C:\Users\Owner\OneDrive\Desktop\embedded project\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.pbi
+C:\Users\Owner\OneDrive\Desktop\embedded project\Tiva_c_hazard_system-\Debug\BrowseInfo\magneticSensor.pbi
 -I
 C:\Users\Owner\OneDrive\Desktop\embedded project\Tiva_c_hazard_system-
 -I

@@ -1,125 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>5</fileVersion>
-    <fileChecksum>1061999659</fileChecksum>
+    <fileChecksum>2679264184</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Debug\List\sender.map</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\Debug\Exe\sender.out</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\bluetoothModule.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\magneticSensor.c</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\laserDiode.o</file>
-            <file>$PROJ_DIR$\ultrasonic.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\ultrasonic.o</file>
-            <file>$PROJ_DIR$\laserDiode.c</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\types.h</file>
-            <file>$PROJ_DIR$\bluetoothModule.h</file>
-            <file>$PROJ_DIR$\laserDiode.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-            <file>$PROJ_DIR$\tm4c123gh6pm.h</file>
-            <file>$PROJ_DIR$\ultrasonic.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
             <file>$PROJ_DIR$\Debug\Obj\bluetoothModule.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\ultrasonic.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\laserDiode.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
             <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
-            <file>$PROJ_DIR$\fumeSensor.c</file>
-            <file>$PROJ_DIR$\fumeSensor.h</file>
             <file>$PROJ_DIR$\Debug\Obj\fumeSensor.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\sender.out</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\magneticSensor.o</file>
+            <file>E:\Fall23\C projects\projectTest\ultrasonic.h</file>
+            <file>$PROJ_DIR$\..\..\projectEmb\Tiva_c_hazard_system-\bluetoothModule.c</file>
+            <file>$PROJ_DIR$\..\..\projectEmb\Tiva_c_hazard_system-\laserDiode.h</file>
+            <file>$PROJ_DIR$\..\..\projectEmb\Tiva_c_hazard_system-\types.h</file>
+            <file>$PROJ_DIR$\..\..\projectEmb\Tiva_c_hazard_system-\tm4c123gh6pm.h</file>
+            <file>$PROJ_DIR$\bluetoothModule.h</file>
+            <file>$PROJ_DIR$\laserDiode.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\fumeSensor.h</file>
+            <file>$PROJ_DIR$\bluetoothModule.c</file>
+            <file>$PROJ_DIR$\tm4c123gh6pm.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\types.h</file>
+            <file>$PROJ_DIR$\fumeSensor.c</file>
+            <file>$PROJ_DIR$\laserDiode.c</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\ultrasonic.h</file>
+            <file>$PROJ_DIR$\ultrasonic.c</file>
+            <file>$PROJ_DIR$\Debug\List\sender.map</file>
+            <file>$PROJ_DIR$\..\..\projectEmb\Tiva_c_hazard_system-\laserDiode.c</file>
+            <file>$PROJ_DIR$\..\..\projectEmb\Tiva_c_hazard_system-\main.c</file>
+            <file>$PROJ_DIR$\magneticSensor.h</file>
+            <file>E:\Fall23\C projects\projectTest\TM4C123GH6PM.h</file>
+            <file>E:\Fall23\C projects\projectTest\main.c</file>
+            <file>E:\Fall23\C projects\projectTest\types.h</file>
+            <file>E:\Fall23\C projects\projectTest\ultrasonic.c</file>
+            <file>E:\Fall23\C projects\main.c</file>
+            <file>$PROJ_DIR$\..\..\projectEmb\Tiva_c_hazard_system-\ultrasonic.c</file>
+            <file>$PROJ_DIR$\..\..\projectEmb\Tiva_c_hazard_system-\bluetoothModule.h</file>
+            <file>$PROJ_DIR$\..\..\projectEmb\Tiva_c_hazard_system-\ultrasonic.h</file>
         </outputs>
+        <file>
+            <name>$PROJ_DIR$\magneticSensor.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30</file>
+                </tool>
+            </inputs>
+        </file>
         <file>
             <name>$PROJ_DIR$\Debug\Exe\sender.out</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 0</file>
+                    <file> 39</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 29 27 32 15 4 17 2 7 1 3</file>
+                    <file> 15 5 16 12 19 13 6 31 18 27 32</file>
                 </tool>
             </inputs>
-        </file>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 5 0</file>
-                </tool>
-            </outputs>
         </file>
         <file>
             <name>$PROJ_DIR$\bluetoothModule.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 27</file>
+                    <file> 5</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 24 21</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 4</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 24 22 20 16 21 23 9 11 19 12 8 26 6 28 13 31</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\laserDiode.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 15</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 24 22 20</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\ultrasonic.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 17</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 24 16 20</file>
+                    <file> 30 25</file>
                 </tool>
             </inputs>
         </file>
@@ -128,15 +107,69 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 32</file>
+                    <file> 16</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 24</file>
+                    <file> 30</file>
                 </tool>
             </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\laserDiode.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 26 33</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 26 33 37 25 8 7 9 4 1 11 10 2 14 3 28 42</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\ultrasonic.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 37 33</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 17 39</file>
+                </tool>
+            </outputs>
         </file>
         <forcedrebuild>
             <name>[MULTI_TOOL]</name>

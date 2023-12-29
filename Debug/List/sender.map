@@ -1,31 +1,34 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.20.4.327/W64 for ARM                  28/Dec/2023  19:58:29
+# IAR ELF Linker V9.20.4.327/W64 for ARM                  29/Dec/2023  18:08:00
 # Copyright 2007-2022 IAR Systems AB.
 #
 #    Output file  =
-#        C:\youseef\asu
-#        university\fall2023\embedded\project\Debug\Exe\sender.out
+#        C:\Users\Owner\OneDrive\Desktop\embedded
+#        project\Tiva_c_hazard_system-\Debug\Exe\sender.out
 #    Map file     =
-#        C:\youseef\asu
-#        university\fall2023\embedded\project\Debug\List\sender.map
+#        C:\Users\Owner\OneDrive\Desktop\embedded
+#        project\Tiva_c_hazard_system-\Debug\List\sender.map
 #    Command line =
-#        -f "C:\youseef\asu
-#        university\fall2023\embedded\project\Debug\Exe\sender.out.rsp"
-#        ("C:\youseef\asu
-#        university\fall2023\embedded\project\Debug\Obj\bluetoothModule.o"
-#        "C:\youseef\asu
-#        university\fall2023\embedded\project\Debug\Obj\fumeSensor.o"
-#        "C:\youseef\asu
-#        university\fall2023\embedded\project\Debug\Obj\laserDiode.o"
-#        "C:\youseef\asu university\fall2023\embedded\project\Debug\Obj\main.o"
-#        "C:\youseef\asu
-#        university\fall2023\embedded\project\Debug\Obj\ultrasonic.o"
-#        --no_out_extension -o "C:\youseef\asu
-#        university\fall2023\embedded\project\Debug\Exe\sender.out" --redirect
+#        -f "C:\Users\Owner\OneDrive\Desktop\embedded
+#        project\Tiva_c_hazard_system-\Debug\Exe\sender.out.rsp"
+#        ("C:\Users\Owner\OneDrive\Desktop\embedded
+#        project\Tiva_c_hazard_system-\Debug\Obj\bluetoothModule.o"
+#        "C:\Users\Owner\OneDrive\Desktop\embedded
+#        project\Tiva_c_hazard_system-\Debug\Obj\fumeSensor.o"
+#        "C:\Users\Owner\OneDrive\Desktop\embedded
+#        project\Tiva_c_hazard_system-\Debug\Obj\laserDiode.o"
+#        "C:\Users\Owner\OneDrive\Desktop\embedded
+#        project\Tiva_c_hazard_system-\Debug\Obj\magneticSensor.o"
+#        "C:\Users\Owner\OneDrive\Desktop\embedded
+#        project\Tiva_c_hazard_system-\Debug\Obj\main.o"
+#        "C:\Users\Owner\OneDrive\Desktop\embedded
+#        project\Tiva_c_hazard_system-\Debug\Obj\ultrasonic.o"
+#        --no_out_extension -o "C:\Users\Owner\OneDrive\Desktop\embedded
+#        project\Tiva_c_hazard_system-\Debug\Exe\sender.out" --redirect
 #        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
-#        "C:\youseef\asu
-#        university\fall2023\embedded\project\Debug\List\sender.map" --config
+#        "C:\Users\Owner\OneDrive\Desktop\embedded
+#        project\Tiva_c_hazard_system-\Debug\List\sender.map" --config
 #        "C:\Program Files\IAR Systems\Embedded Workbench
 #        9.0\arm\config\linker\TexasInstruments\TM4C123GH6.icf" --semihosting
 #        --entry __iar_program_start --vfe --text_out locale)
@@ -161,7 +164,7 @@ command line/config:
     ------------------------------------------------
     Total:
 
-C:\youseef\asu university\fall2023\embedded\project\Debug\Obj: [1]
+C:\Users\Owner\OneDrive\Desktop\embedded project\Tiva_c_hazard_system-\Debug\Obj: [1]
     fumeSensor.o               172
     main.o                      36
     ------------------------------------------------
@@ -323,7 +326,7 @@ strchr                        0xf7d         Code  Gb  strchr.o [4]
 strlen                        0xfd5         Code  Gb  strlen.o [4]
 
 
-[1] = C:\youseef\asu university\fall2023\embedded\project\Debug\Obj
+[1] = C:\Users\Owner\OneDrive\Desktop\embedded project\Tiva_c_hazard_system-\Debug\Obj
 [2] = dl7M_tln.a
 [3] = m7M_tls.a
 [4] = rt7M_tl.a
