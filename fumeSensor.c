@@ -32,7 +32,3 @@ void clear_sample_flag(void){
 }
 
 
-void fumeSensor(void){
-  
-  
-}

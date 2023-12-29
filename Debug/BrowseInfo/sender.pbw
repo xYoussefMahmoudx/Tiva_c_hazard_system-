@@ -92792,20 +92792,6 @@
     "scope": null
   },
   {
-    "ID": "c:@F@fumeSensor",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void fumeSensor(void)",
-    "location": {
-      "column": "6",
-      "line": "35",
-      "path": "C:\\Users\\Owner\\OneDrive\\Desktop\\embedded project\\Tiva_c_hazard_system-\\fumeSensor.c"
-    },
-    "name": "fumeSensor",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:@F@laserDiode",
     "What": "Function",
     "defdec": "Def",
@@ -93148,7 +93134,7 @@
     "display": "void mag_ADC_init(void)",
     "location": {
       "column": "6",
-      "line": "3",
+      "line": "4",
       "path": "C:\\Users\\Owner\\OneDrive\\Desktop\\embedded project\\Tiva_c_hazard_system-\\magneticSensor.c"
     },
     "name": "mag_ADC_init",
@@ -93184,16 +93170,16 @@
     "scope": null
   },
   {
-    "ID": "c:@F@mag_fumeSensor",
+    "ID": "c:@F@fumeSensor",
     "What": "Function",
     "defdec": "Def",
-    "display": "void mag_fumeSensor(void)",
+    "display": "void fumeSensor(void)",
     "location": {
       "column": "6",
       "line": "35",
       "path": "C:\\Users\\Owner\\OneDrive\\Desktop\\embedded project\\Tiva_c_hazard_system-\\magneticSensor.c"
     },
-    "name": "mag_fumeSensor",
+    "name": "fumeSensor",
     "origin": "project_file",
     "scope": null
   },
@@ -98291,13 +98277,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2636@F@main@adc_value",
+    "ID": "c:main.c@2676@F@main@adc_value",
     "What": "Variable",
     "defdec": "Def",
     "display": "adc_value",
     "location": {
-      "column": "16",
-      "line": "105",
+      "column": "18",
+      "line": "106",
       "path": "C:\\Users\\Owner\\OneDrive\\Desktop\\embedded project\\Tiva_c_hazard_system-\\main.c"
     },
     "name": "adc_value",
