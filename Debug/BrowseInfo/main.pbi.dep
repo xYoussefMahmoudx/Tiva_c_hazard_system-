@@ -1,10 +1,10 @@
-C:\Users\Owner\OneDrive\Desktop\embedded\ project\Tiva_c_hazard_system-\Debug\BrowseInfo\main.pbi: \
-  C:\Users\Owner\OneDrive\Desktop\embedded\ project\Tiva_c_hazard_system-\main.c \
-  C:\Users\Owner\OneDrive\Desktop\embedded\ project\Tiva_c_hazard_system-\tm4c123gh6pm.h \
-  C:\Users\Owner\OneDrive\Desktop\embedded\ project\Tiva_c_hazard_system-\laserDiode.h \
-  C:\Users\Owner\OneDrive\Desktop\embedded\ project\Tiva_c_hazard_system-\types.h \
-  C:\Users\Owner\OneDrive\Desktop\embedded\ project\Tiva_c_hazard_system-\ultrasonic.h \
-  C:\Users\Owner\OneDrive\Desktop\embedded\ project\Tiva_c_hazard_system-\bluetoothModule.h \
+C:\youseef\asu\ university\fall2023\embedded\project\Debug\BrowseInfo\main.pbi: \
+  C:\youseef\asu\ university\fall2023\embedded\project\main.c \
+  C:\youseef\asu\ university\fall2023\embedded\project\tm4c123gh6pm.h \
+  C:\youseef\asu\ university\fall2023\embedded\project\laserDiode.h \
+  C:\youseef\asu\ university\fall2023\embedded\project\types.h \
+  C:\youseef\asu\ university\fall2023\embedded\project\ultrasonic.h \
+  C:\youseef\asu\ university\fall2023\embedded\project\bluetoothModule.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdio.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
@@ -15,5 +15,5 @@ C:\Users\Owner\OneDrive\Desktop\embedded\ project\Tiva_c_hazard_system-\Debug\Br
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdlib.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product_stdlib.h \
-  C:\Users\Owner\OneDrive\Desktop\embedded\ project\Tiva_c_hazard_system-\fumeSensor.h \
-  C:\Users\Owner\OneDrive\Desktop\embedded\ project\Tiva_c_hazard_system-\magneticSensor.h
+  C:\youseef\asu\ university\fall2023\embedded\project\fumeSensor.h \
+  C:\youseef\asu\ university\fall2023\embedded\project\magneticSensor.h

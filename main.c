@@ -8,7 +8,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include "fumeSensor.h"
-#include "magneticSensor.h""
+#include "magneticSensor.h"
 
 uint32 time; /*stores pulse on time */
 uint32 distance; /* stores measured distance value */
@@ -102,19 +102,28 @@ int main()
   
   
   
-      ADC_init();  // Initialize ADC
+      /*ADC_init();  // Initialize ADC
     unsigned int adc_value;
     while (1) {
         start_sampling();  // Start ADC sampling
         
-        /* Wait until sample conversion completed */
+        
         adc_value = ADC0_SSFIFO3_R;  // Read ADC conversion result from SS3 FIFO
         clear_sample_flag();         // Clear conversion completion flag
         
-        /* Control Green PF3->LED */
-        printf("%d\n", adc_value);
-    }  // Print ADC value
         
-
+        printf("%d\n", adc_value);
+    }  // Print ADC value*/
+        
+unsigned int dig_value;
+  
+while(1){
+  mag_sensor();
+  dig_value= GPIO_PORTE_DATA_R & (0x04);
+  printf("%d\n",dig_value);
+  Delay(100);
+}
+  
+  
   return 0;
 }

@@ -24,77 +24,77 @@ rule PDBLINK
 
 
 #Build steps
-build C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.xcl : COMPILER_XCL 
-  xclcommand = -source_file "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\bluetoothModule.c" -xcl_file "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.xcl" -macro_file "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
-  flags = "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\bluetoothModule.c" -o "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.tmp"
-  rspfile_name = C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.xcl.rsp
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\bluetoothModule.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\youseef\asu$ university\fall2023\embedded\project\bluetoothModule.c" -xcl_file "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\bluetoothModule.xcl" -macro_file "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\bluetoothModule.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\youseef\asu$ university\fall2023\embedded\project\bluetoothModule.c" -o "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\bluetoothModule.tmp"
+  rspfile_name = C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\bluetoothModule.xcl.rsp
 
-build C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\fumeSensor.xcl : COMPILER_XCL 
-  xclcommand = -source_file "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\fumeSensor.c" -xcl_file "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\fumeSensor.xcl" -macro_file "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\fumeSensor.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
-  flags = "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\fumeSensor.c" -o "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\fumeSensor.tmp"
-  rspfile_name = C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\fumeSensor.xcl.rsp
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\fumeSensor.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\youseef\asu$ university\fall2023\embedded\project\fumeSensor.c" -xcl_file "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\fumeSensor.xcl" -macro_file "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\fumeSensor.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\youseef\asu$ university\fall2023\embedded\project\fumeSensor.c" -o "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\fumeSensor.tmp"
+  rspfile_name = C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\fumeSensor.xcl.rsp
 
-build C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.xcl : COMPILER_XCL 
-  xclcommand = -source_file "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\laserDiode.c" -xcl_file "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.xcl" -macro_file "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
-  flags = "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\laserDiode.c" -o "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.tmp"
-  rspfile_name = C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.xcl.rsp
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\youseef\asu$ university\fall2023\embedded\project\laserDiode.c" -xcl_file "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.xcl" -macro_file "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\youseef\asu$ university\fall2023\embedded\project\laserDiode.c" -o "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.tmp"
+  rspfile_name = C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.xcl.rsp
 
-build C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\magneticSensor.xcl : COMPILER_XCL 
-  xclcommand = -source_file "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\magneticSensor.c" -xcl_file "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\magneticSensor.xcl" -macro_file "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\magneticSensor.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
-  flags = "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\magneticSensor.c" -o "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\magneticSensor.tmp"
-  rspfile_name = C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\magneticSensor.xcl.rsp
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\magneticSensor.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\youseef\asu$ university\fall2023\embedded\project\magneticSensor.c" -xcl_file "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\magneticSensor.xcl" -macro_file "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\magneticSensor.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\youseef\asu$ university\fall2023\embedded\project\magneticSensor.c" -o "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\magneticSensor.tmp"
+  rspfile_name = C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\magneticSensor.xcl.rsp
 
-build C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
-  xclcommand = -source_file "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\main.c" -xcl_file "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\main.xcl" -macro_file "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\main.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
-  flags = "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\main.c" -o "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\main.tmp"
-  rspfile_name = C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\main.xcl.rsp
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\youseef\asu$ university\fall2023\embedded\project\main.c" -xcl_file "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.xcl" -macro_file "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\youseef\asu$ university\fall2023\embedded\project\main.c" -o "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.tmp"
+  rspfile_name = C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.xcl.rsp
 
-build C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.xcl : COMPILER_XCL 
-  xclcommand = -source_file "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\ultrasonic.c" -xcl_file "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.xcl" -macro_file "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
-  flags = "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\ultrasonic.c" -o "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.tmp"
-  rspfile_name = C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.xcl.rsp
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\youseef\asu$ university\fall2023\embedded\project\ultrasonic.c" -xcl_file "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.xcl" -macro_file "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\youseef\asu$ university\fall2023\embedded\project\ultrasonic.c" -o "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.tmp"
+  rspfile_name = C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.xcl.rsp
 
-build C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.pbi : INDEXER C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.xcl |  $
-C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\bluetoothModule.c
-  flags = "-out=C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.pbi" -f "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.xcl"
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\bluetoothModule.pbi : INDEXER C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\bluetoothModule.xcl |  $
+C$:\youseef\asu$ university\fall2023\embedded\project\bluetoothModule.c
+  flags = "-out=C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\bluetoothModule.pbi" -f "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\bluetoothModule.xcl"
 
-build C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\fumeSensor.pbi : INDEXER C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\fumeSensor.xcl |  $
-C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\fumeSensor.c
-  flags = "-out=C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\fumeSensor.pbi" -f "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\fumeSensor.xcl"
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\fumeSensor.pbi : INDEXER C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\fumeSensor.xcl |  $
+C$:\youseef\asu$ university\fall2023\embedded\project\fumeSensor.c
+  flags = "-out=C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\fumeSensor.pbi" -f "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\fumeSensor.xcl"
 
-build C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.pbi : INDEXER C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.xcl |  $
-C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\laserDiode.c
-  flags = "-out=C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.pbi" -f "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.xcl"
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.pbi : INDEXER C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.xcl |  $
+C$:\youseef\asu$ university\fall2023\embedded\project\laserDiode.c
+  flags = "-out=C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.pbi" -f "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.xcl"
 
-build C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\magneticSensor.pbi : INDEXER C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\magneticSensor.xcl |  $
-C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\magneticSensor.c
-  flags = "-out=C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\magneticSensor.pbi" -f "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\magneticSensor.xcl"
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\magneticSensor.pbi : INDEXER C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\magneticSensor.xcl |  $
+C$:\youseef\asu$ university\fall2023\embedded\project\magneticSensor.c
+  flags = "-out=C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\magneticSensor.pbi" -f "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\magneticSensor.xcl"
 
-build C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\main.pbi : INDEXER C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\main.xcl |  $
-C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\main.c
-  flags = "-out=C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\main.pbi" -f "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\main.xcl"
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.pbi : INDEXER C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.xcl |  $
+C$:\youseef\asu$ university\fall2023\embedded\project\main.c
+  flags = "-out=C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.pbi" -f "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.xcl"
 
-build C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.pbi : INDEXER C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.xcl |  $
-C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\ultrasonic.c
-  flags = "-out=C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.pbi" -f "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.xcl"
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.pbi : INDEXER C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.xcl |  $
+C$:\youseef\asu$ university\fall2023\embedded\project\ultrasonic.c
+  flags = "-out=C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.pbi" -f "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.xcl"
 
-build C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\sender.pbw : MAKEBROWSE C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\sender.pbd
-  flags = "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\sender.pbd" -output "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\sender.pbw"
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender.pbw : MAKEBROWSE C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender.pbd
+  flags = "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender.pbd" -output "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender.pbw"
 
-build C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\sender_part0.pbi : PDBLINK C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.pbi |  $
-C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\fumeSensor.pbi
-  flags = -M "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\sender_part0.pbi" "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.pbi" "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\fumeSensor.pbi"
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part0.pbi : PDBLINK C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\bluetoothModule.pbi |  $
+C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\fumeSensor.pbi
+  flags = -M "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part0.pbi" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\bluetoothModule.pbi" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\fumeSensor.pbi"
 
-build C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\sender_part1.pbi : PDBLINK C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.pbi |  $
-C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\magneticSensor.pbi
-  flags = -M "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\sender_part1.pbi" "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.pbi" "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\magneticSensor.pbi"
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part1.pbi : PDBLINK C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.pbi |  $
+C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\magneticSensor.pbi
+  flags = -M "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part1.pbi" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.pbi" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\magneticSensor.pbi"
 
-build C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\sender_part2.pbi : PDBLINK C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\main.pbi |  $
-C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.pbi
-  flags = -M "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\sender_part2.pbi" "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\main.pbi" "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\ultrasonic.pbi"
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part2.pbi : PDBLINK C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.pbi |  $
+C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.pbi
+  flags = -M "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part2.pbi" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.pbi" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.pbi"
 
-build C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\sender.pbd : PDBLINK C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\sender_part0.pbi |  $
-C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\sender_part1.pbi $
-C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\sender_part2.pbi
-  flags = -M "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\sender.pbd" "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\sender_part0.pbi" "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\sender_part1.pbi" "C$:\Users\Owner\OneDrive\Desktop\embedded$ project\Tiva_c_hazard_system-\Debug\BrowseInfo\sender_part2.pbi"
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender.pbd : PDBLINK C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part0.pbi |  $
+C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part1.pbi $
+C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part2.pbi
+  flags = -M "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender.pbd" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part0.pbi" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part1.pbi" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part2.pbi"
 

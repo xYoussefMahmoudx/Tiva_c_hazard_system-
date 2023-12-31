@@ -1,15 +1,15 @@
-"C:\Users\Owner\OneDrive\Desktop\embedded project\Tiva_c_hazard_system-\bluetoothModule.c"
+"C:\youseef\asu university\fall2023\embedded\project\bluetoothModule.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\Users\Owner\OneDrive\Desktop\embedded project\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.pbi.dep
+C:\youseef\asu university\fall2023\embedded\project\Debug\BrowseInfo\bluetoothModule.pbi.dep
 -o
-C:\Users\Owner\OneDrive\Desktop\embedded project\Tiva_c_hazard_system-\Debug\BrowseInfo\bluetoothModule.pbi
+C:\youseef\asu university\fall2023\embedded\project\Debug\BrowseInfo\bluetoothModule.pbi
 -I
-C:\Users\Owner\OneDrive\Desktop\embedded project\Tiva_c_hazard_system-
+C:\youseef\asu university\fall2023\embedded\project
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\aarch32
 -I
