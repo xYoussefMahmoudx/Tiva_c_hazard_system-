@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>5</fileVersion>
-    <fileChecksum>2679264184</fileChecksum>
+    <fileChecksum>4237387309</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
@@ -42,6 +42,9 @@
             <file>$PROJ_DIR$\Debug\Obj\ultrasonic.o</file>
             <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
             <file>$PROJ_DIR$\Debug\Obj\fumeSensor.o</file>
+            <file>$PROJ_DIR$\startstop.h</file>
+            <file>$PROJ_DIR$\startstop.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\startstop.o</file>
         </outputs>
         <file>
             <name>$PROJ_DIR$\bluetoothModule.c</name>
@@ -114,7 +117,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 9 5 10 12 1 29 13 32 16 33 14 26 17 22 30 3 7</file>
+                    <file> 9 5 10 12 1 29 13 32 16 33 14 26 17 22 30 3 7 37</file>
                 </tool>
             </inputs>
         </file>
@@ -144,7 +147,7 @@
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 19 27 36 21 15 20 34 24 28 35 31</file>
+                    <file> 19 27 36 21 15 20 39 34 24 28 35 31</file>
                 </tool>
             </inputs>
         </file>
@@ -156,6 +159,21 @@
                     <file> 23 25</file>
                 </tool>
             </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startstop.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 9 10</file>
+                </tool>
+            </inputs>
         </file>
         <forcedrebuild>
             <name>[MULTI_TOOL]</name>

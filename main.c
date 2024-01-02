@@ -9,6 +9,7 @@
 #include <stdlib.h>
 #include "fumeSensor.h"
 #include "magneticSensor.h"
+#include "startstop.h"
 
 uint32 time; /*stores pulse on time */
 uint32 distance; /* stores measured distance value */
@@ -132,7 +133,7 @@ state ==> 3 magnetic
 state ==> 4 ON
 state ==> 5 Off
 */
-  uint32 dig_value;
+ /* uint32 dig_value;
   uint32 adc_value;
    UART5_init();
   laserDiodeInit();
@@ -159,8 +160,8 @@ state ==> 5 Off
     }
      printf("%d dig \n",GPIO_PORTE_DATA_R & (0x04));
     
-    time = Measure_distance(); /* take pulse duration measurement */ 
-    distance = (time * 10625)/10000000; /* convert pulse duration into distance */
+    time = Measure_distance(); 
+    distance = (time * 10625)/10000000; 
     if(distance>10){
       
       laserDiode(2);
@@ -170,10 +171,13 @@ state ==> 5 Off
  printf("%d dist \n",distance);
     
    // Delay(1000);
+  }*/
+  
+  
+  portf_init();
+  
+  while(1){
+  printf("%d stop \n",stop_btn());
   }
-  
-  
-  
-  
   return 0;
 }

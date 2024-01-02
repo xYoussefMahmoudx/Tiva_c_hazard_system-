@@ -49,6 +49,11 @@ build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\mai
   flags = "C$:\youseef\asu$ university\fall2023\embedded\project\main.c" -o "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.tmp"
   rspfile_name = C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.xcl.rsp
 
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\startstop.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\youseef\asu$ university\fall2023\embedded\project\startstop.c" -xcl_file "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\startstop.xcl" -macro_file "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\startstop.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\youseef\asu$ university\fall2023\embedded\project\startstop.c" -o "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\startstop.tmp"
+  rspfile_name = C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\startstop.xcl.rsp
+
 build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.xcl : COMPILER_XCL 
   xclcommand = -source_file "C$:\youseef\asu$ university\fall2023\embedded\project\ultrasonic.c" -xcl_file "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.xcl" -macro_file "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
   flags = "C$:\youseef\asu$ university\fall2023\embedded\project\ultrasonic.c" -o "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.tmp"
@@ -74,6 +79,10 @@ build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\mai
 C$:\youseef\asu$ university\fall2023\embedded\project\main.c
   flags = "-out=C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.pbi" -f "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.xcl"
 
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\startstop.pbi : INDEXER C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\startstop.xcl |  $
+C$:\youseef\asu$ university\fall2023\embedded\project\startstop.c
+  flags = "-out=C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\startstop.pbi" -f "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\startstop.xcl"
+
 build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.pbi : INDEXER C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.xcl |  $
 C$:\youseef\asu$ university\fall2023\embedded\project\ultrasonic.c
   flags = "-out=C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.pbi" -f "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.xcl"
@@ -82,16 +91,17 @@ build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sen
   flags = "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender.pbd" -output "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender.pbw"
 
 build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part0.pbi : PDBLINK C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\bluetoothModule.pbi |  $
-C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\fumeSensor.pbi
-  flags = -M "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part0.pbi" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\bluetoothModule.pbi" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\fumeSensor.pbi"
+C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\fumeSensor.pbi $
+C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.pbi
+  flags = -M "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part0.pbi" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\bluetoothModule.pbi" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\fumeSensor.pbi" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.pbi"
 
-build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part1.pbi : PDBLINK C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.pbi |  $
-C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\magneticSensor.pbi
-  flags = -M "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part1.pbi" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.pbi" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\magneticSensor.pbi"
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part1.pbi : PDBLINK C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\magneticSensor.pbi |  $
+C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.pbi $
+C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\startstop.pbi
+  flags = -M "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part1.pbi" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\magneticSensor.pbi" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.pbi" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\startstop.pbi"
 
-build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part2.pbi : PDBLINK C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.pbi |  $
-C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.pbi
-  flags = -M "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part2.pbi" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\main.pbi" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.pbi"
+build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part2.pbi : PDBLINK C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.pbi
+  flags = -M "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part2.pbi" "C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\ultrasonic.pbi"
 
 build C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender.pbd : PDBLINK C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part0.pbi |  $
 C$:\youseef\asu$ university\fall2023\embedded\project\Debug\BrowseInfo\sender_part1.pbi $
