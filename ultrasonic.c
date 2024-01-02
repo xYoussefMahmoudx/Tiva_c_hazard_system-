@@ -1,4 +1,4 @@
-#include "TM4C123GH6PM.h"
+# include "tm4c123gh6pm.h"
 #include "ultrasonic.h"
 #include "types.h"
 
@@ -87,7 +87,7 @@ void Delay_MicroSecond(int time)
 }
 void UART5_init(void)
 {
-	  SYSCTL_RCGCUART_R |= 0x20;  /* enable clock to UART5 */
+    SYSCTL_RCGCUART_R |= 0x20;  /* enable clock to UART5 */
     SYSCTL_RCGCGPIO_R |= 0x10;  /* enable clock to PORTE for PE4/Rx and RE5/Tx */
     /* UART0 initialization */
     UART5_CTL_R = 0;         /* UART5 module disbable */

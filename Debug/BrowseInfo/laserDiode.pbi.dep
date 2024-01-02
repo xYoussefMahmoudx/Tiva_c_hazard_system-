@@ -1,5 +1,6 @@
-C:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\Debug\BrowseInfo\laserDiode.pbi: \
-  C:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\laserDiode.c \
-  C:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\tm4c123gh6pm.h \
-  C:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\laserDiode.h \
-  C:\Users\Owner\OneDrive\Desktop\projectEmb\Tiva_c_hazard_system-\types.h
+C:\youseef\asu\ university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.pbi: \
+  C:\youseef\asu\ university\fall2023\embedded\project\laserDiode.c \
+  C:\youseef\asu\ university\fall2023\embedded\project\tm4c123gh6pm.h \
+  C:\youseef\asu\ university\fall2023\embedded\project\laserDiode.h \
+  C:\youseef\asu\ university\fall2023\embedded\project\types.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdbool.h

@@ -1,13 +1,13 @@
-"C:\youseef\asu university\fall2023\embedded\project\laserDiode.c"
+"C:\youseef\asu university\fall2023\embedded\project\magneticSensor.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\youseef\asu university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.pbi.dep
+C:\youseef\asu university\fall2023\embedded\project\Debug\BrowseInfo\magneticSensor.pbi.dep
 -o
-C:\youseef\asu university\fall2023\embedded\project\Debug\BrowseInfo\laserDiode.pbi
+C:\youseef\asu university\fall2023\embedded\project\Debug\BrowseInfo\magneticSensor.pbi
 -I
 C:\youseef\asu university\fall2023\embedded\project
 -I

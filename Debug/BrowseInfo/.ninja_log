@@ -1,16 +1,39 @@
 # ninja log v5
-0	182	7253874015622312	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/laserDiode.pbi	d71412974960d304
-184	227	7253874016081084	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender.pbd	4b1e7122c62c09fd
-2	138	7250587590000000	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/main.xcl	4b2bc3a0b2703413
-0	63	7253870003718374	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/main.pbi	e55c0becddf91482
-230	823	7253874021759384	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender.pbw	6decfe5005408a92
-10	150	7250587590000000	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/laserDiode.xcl	a6914969317c90b
-0	66	7253874677883063	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/main.pbi	e55c0becddf91482
-68	111	7253874678321885	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender.pbd	4b1e7122c62c09fd
-114	749	7253874684396609	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender.pbw	6decfe5005408a92
-18	286	7253953260000000	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/BrowseInfo/laserDiode.xcl	b7a30d5fd8be4fad
-2	303	7253953260000000	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/BrowseInfo/main.xcl	f6016f66edafcbb1
-291	392	7253953267911738	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/BrowseInfo/laserDiode.pbi	91d7ed6d8c2e011a
-308	406	7253953267911738	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/BrowseInfo/main.pbi	20685ffc4d74b640
-411	586	7253953269849751	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/BrowseInfo/sender.pbd	3bed41d5e2fc9e56
-590	1412	7253953277829506	C:/Users/Owner/OneDrive/Desktop/projectEmb/Tiva_c_hazard_system-/Debug/BrowseInfo/sender.pbw	e56a9aeef7bfd9a
+7	223	7259263338011720	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/main.pbi	e55c0becddf91482
+1	78	7259044577905647	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/magneticSensor.pbi	cd839af56492e34c
+59	884	7256780710000000	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/fumeSensor.xcl	241b209cbdd052e6
+70	876	7256780710000000	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/magneticSensor.xcl	c54ed920be6dce87
+72	113	7259046647588690	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender_part0.pbi	d31a8b01e5cfaec3
+83	907	7256780710000000	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/ultrasonic.xcl	a4301fc6926a40aa
+77	921	7256780710000000	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/main.xcl	4b2bc3a0b2703413
+28	849	7256780710000000	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/bluetoothModule.xcl	e52841b97fa81b44
+65	896	7256780710000000	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/laserDiode.xcl	a6914969317c90b
+58	182	7259035078295051	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/ultrasonic.pbi	6cada7d7542e4ccc
+3	141	7259035078155427	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/bluetoothModule.pbi	40957a6bb39fd53e
+1	69	7259046647143666	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/fumeSensor.pbi	3517844f81fe56df
+2	89	7259263336665319	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/laserDiode.pbi	d71412974960d304
+279	342	7259263339208527	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender.pbd	277211760e2f5a4c
+93	147	7259263337263734	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender_part1.pbi	a3a1994e7a56b842
+226	276	7259263338560255	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender_part2.pbi	c2ec657b4afd6032
+346	1824	7259263353710748	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender.pbw	6decfe5005408a92
+1	200	7259277303868825	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/main.pbi	e55c0becddf91482
+203	250	7259277304391859	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender_part2.pbi	c2ec657b4afd6032
+253	317	7259277305060073	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender.pbd	277211760e2f5a4c
+321	1685	7259277318432288	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender.pbw	6decfe5005408a92
+1	219	7259278932366769	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/main.pbi	e55c0becddf91482
+222	277	7259278932995087	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender_part2.pbi	c2ec657b4afd6032
+280	338	7259278933603445	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender.pbd	277211760e2f5a4c
+342	1077	7259278940562538	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender.pbw	6decfe5005408a92
+8	86	7259289415028897	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/ultrasonic.pbi	6cada7d7542e4ccc
+1	103	7259289415198442	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/main.pbi	e55c0becddf91482
+106	153	7259289415717055	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender_part2.pbi	c2ec657b4afd6032
+157	221	7259289416404621	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender.pbd	277211760e2f5a4c
+226	1725	7259289431130263	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender.pbw	6decfe5005408a92
+1	207	7259292354156689	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/main.pbi	e55c0becddf91482
+1	48	7259292405347282	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender_part2.pbi	c2ec657b4afd6032
+51	111	7259292405975607	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender.pbd	277211760e2f5a4c
+115	809	7259292412690918	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender.pbw	6decfe5005408a92
+1	200	7259303092380297	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/laserDiode.pbi	d71412974960d304
+203	258	7259303092979112	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender_part1.pbi	a3a1994e7a56b842
+261	329	7259303093687279	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender.pbd	277211760e2f5a4c
+332	1847	7259303108555605	C:/youseef/asu university/fall2023/embedded/project/Debug/BrowseInfo/sender.pbw	6decfe5005408a92
