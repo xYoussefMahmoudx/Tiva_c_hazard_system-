@@ -8,6 +8,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include "fumeSensor.h"
+#include "magneticSensor.h"
 
 uint32 time; /*stores pulse on time */
 uint32 distance; /* stores measured distance value */
@@ -81,17 +82,48 @@ int main()
   
   
   
-   unsigned int adc_value;
-   ADC_init();
+  // unsigned int adc_value;
+   //ADC_init();
    
-  while(1)
-    {
-       start_sampling();
+//  while(1)
+    //{
+  //     start_sampling();
    /* Wait untill sample conversion completed*/
-        adc_value = ADC0_SSFIFO3_R; /* read adc coversion result from SS3 FIFO*/
-        clear_sample_flag();         /* clear coversion clear flag bit*/
+     //   adc_value = ADC0_SSFIFO3_R; /* read adc coversion result from SS3 FIFO*/
+     //   clear_sample_flag();         /* clear coversion clear flag bit*/
 			/*control Green PF3->LED */
-	printf("%d\n",adc_value);
-    }
+	//printf("%d\n",adc_value);
+  //  }
+
+  
+  
+  
+  
+  
+  
+  
+      /*ADC_init();  // Initialize ADC
+    unsigned int adc_value;
+    while (1) {
+        start_sampling();  // Start ADC sampling
+        
+        
+        adc_value = ADC0_SSFIFO3_R;  // Read ADC conversion result from SS3 FIFO
+        clear_sample_flag();         // Clear conversion completion flag
+        
+        
+        printf("%d\n", adc_value);
+    }  // Print ADC value*/
+        
+unsigned int dig_value;
+  
+while(1){
+  mag_sensor();
+  dig_value= GPIO_PORTE_DATA_R & (0x04);
+  printf("%d\n",dig_value);
+  Delay(100);
+}
+  
+  
   return 0;
 }
