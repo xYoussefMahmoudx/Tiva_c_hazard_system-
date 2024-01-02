@@ -133,18 +133,23 @@ state ==> 3 magnetic
 state ==> 4 ON
 state ==> 5 Off
 */
- /* uint32 dig_value;
+  uint32 dig_value;
   uint32 adc_value;
    UART5_init();
   laserDiodeInit();
   delayInit();
   ADC_init();
   mag_sensor();
-
+  uint8 on_flag=0;
   Timer0ACapture_init();
   while (1){
-    
-   
+    if(start_btn()){
+      on_flag=1;
+    }
+    while(on_flag){
+      if(stop_btn()){
+      on_flag=0;
+      }
   adc_value=fume_sensor();
     if(adc_value>1500){
       laserDiode(1);
@@ -169,15 +174,15 @@ state ==> 5 Off
       
     }
  printf("%d dist \n",distance);
-    
+    }
    // Delay(1000);
-  }*/
+  }
   
   
-  portf_init();
+/*  portf_init();
   
   while(1){
   printf("%d stop \n",stop_btn());
-  }
+  }*/
   return 0;
 }
