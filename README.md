@@ -22,8 +22,8 @@ This project is a comprehensive hazard detection system consisting of two main c
 - **Start/Stop Buttons**: Control the operation of the entire system.
 
 ## Additional Resources:
-- [Project Documentation](link-to-documentation): Detailed documentation outlining the project's components, circuit diagrams, and code explanations.
-- [Project Video](link-to-video): Video demonstration showcasing the project in action.
+- [Project Documentation](https://drive.google.com/file/d/1mSzgsOncTHhjm9P1KVLquHjqN82NWDgf/view?usp=sharing): Detailed documentation outlining the project's components, circuit diagrams, and code explanations.
+- [Project Video](https://www.youtube.com/watch?v=awd9nEAME8g): Video demonstration showcasing the project in action.
 
 ## Getting Started:
 To set up and run the hazard detection system, please refer to the documentation provided in the link above. Ensure all components are correctly connected and configured before powering on the system.
