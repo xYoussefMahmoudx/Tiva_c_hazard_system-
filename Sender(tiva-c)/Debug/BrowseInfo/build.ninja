@@ -1,0 +1,110 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe" $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe" $flags
+
+rule MAKEBROWSE
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe" $flags
+
+rule PDBLINK
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe" $flags
+
+
+
+#Build steps
+build C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\bluetoothModule.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\bluetoothModule.c -xcl_file C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\bluetoothModule.xcl -macro_file C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\bluetoothModule.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\bluetoothModule.c -o C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\bluetoothModule.tmp
+  rspfile_name = C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\bluetoothModule.xcl.rsp
+
+build C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\fumeSensor.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\fumeSensor.c -xcl_file C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\fumeSensor.xcl -macro_file C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\fumeSensor.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\fumeSensor.c -o C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\fumeSensor.tmp
+  rspfile_name = C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\fumeSensor.xcl.rsp
+
+build C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\laserDiode.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\laserDiode.c -xcl_file C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\laserDiode.xcl -macro_file C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\laserDiode.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\laserDiode.c -o C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\laserDiode.tmp
+  rspfile_name = C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\laserDiode.xcl.rsp
+
+build C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\magneticSensor.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\magneticSensor.c -xcl_file C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\magneticSensor.xcl -macro_file C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\magneticSensor.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\magneticSensor.c -o C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\magneticSensor.tmp
+  rspfile_name = C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\magneticSensor.xcl.rsp
+
+build C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\main.c -xcl_file C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\main.xcl -macro_file C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\main.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\main.c -o C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\main.tmp
+  rspfile_name = C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\main.xcl.rsp
+
+build C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\startstop.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\startstop.c -xcl_file C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\startstop.xcl -macro_file C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\startstop.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\startstop.c -o C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\startstop.tmp
+  rspfile_name = C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\startstop.xcl.rsp
+
+build C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\ultrasonic.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\ultrasonic.c -xcl_file C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\ultrasonic.xcl -macro_file C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\ultrasonic.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\ultrasonic.c -o C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\ultrasonic.tmp
+  rspfile_name = C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\ultrasonic.xcl.rsp
+
+build C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\bluetoothModule.pbi : INDEXER C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\bluetoothModule.xcl |  $
+C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\bluetoothModule.c
+  flags = -out=C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\bluetoothModule.pbi -f C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\bluetoothModule.xcl
+
+build C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\fumeSensor.pbi : INDEXER C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\fumeSensor.xcl |  $
+C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\fumeSensor.c
+  flags = -out=C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\fumeSensor.pbi -f C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\fumeSensor.xcl
+
+build C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\laserDiode.pbi : INDEXER C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\laserDiode.xcl |  $
+C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\laserDiode.c
+  flags = -out=C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\laserDiode.pbi -f C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\laserDiode.xcl
+
+build C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\magneticSensor.pbi : INDEXER C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\magneticSensor.xcl |  $
+C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\magneticSensor.c
+  flags = -out=C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\magneticSensor.pbi -f C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\magneticSensor.xcl
+
+build C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\main.pbi : INDEXER C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\main.xcl |  $
+C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\main.c
+  flags = -out=C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\main.pbi -f C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\main.xcl
+
+build C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\startstop.pbi : INDEXER C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\startstop.xcl |  $
+C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\startstop.c
+  flags = -out=C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\startstop.pbi -f C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\startstop.xcl
+
+build C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\ultrasonic.pbi : INDEXER C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\ultrasonic.xcl |  $
+C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\ultrasonic.c
+  flags = -out=C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\ultrasonic.pbi -f C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\ultrasonic.xcl
+
+build C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\sender.pbw : MAKEBROWSE C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\sender.pbd
+  flags = C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\sender.pbd -output C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\sender.pbw
+
+build C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\sender_part0.pbi : PDBLINK C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\bluetoothModule.pbi |  $
+C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\fumeSensor.pbi $
+C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\laserDiode.pbi
+  flags = -M C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\sender_part0.pbi C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\bluetoothModule.pbi C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\fumeSensor.pbi C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\laserDiode.pbi
+
+build C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\sender_part1.pbi : PDBLINK C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\magneticSensor.pbi |  $
+C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\main.pbi $
+C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\startstop.pbi
+  flags = -M C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\sender_part1.pbi C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\magneticSensor.pbi C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\main.pbi C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\startstop.pbi
+
+build C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\sender_part2.pbi : PDBLINK C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\ultrasonic.pbi
+  flags = -M C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\sender_part2.pbi C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\ultrasonic.pbi
+
+build C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\sender.pbd : PDBLINK C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\sender_part0.pbi |  $
+C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\sender_part1.pbi $
+C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\sender_part2.pbi
+  flags = -M C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\sender.pbd C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\sender_part0.pbi C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\sender_part1.pbi C$:\Users\youss\Desktop\project\Tiva_c_hazard_system-\Sender(tiva-c)\Debug\BrowseInfo\sender_part2.pbi
+
