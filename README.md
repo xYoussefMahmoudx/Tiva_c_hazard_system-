@@ -15,7 +15,7 @@ This project is for (CSE211:Introduction to Embedded Systems) course at Faculty 
 - **Lamp Indicator**: Flashes when a hazard is detected.
 - **Buzzer**: Provides audible alerts for detected hazards.
 - **LCD Display**: Displays messages regarding the detected hazard.
-- **Mute Button**: Allows users to mute the alarm; automatically unmutes after 5 seconds.
+- **Mute Button**: Allows users to mute the alarm after 5 seconds from when Pressed.
 - **Laser Diode Receiver (LSDR)**: Receives signals sent by the sender unit via Li-Fi.
 
 ## System Controls:
