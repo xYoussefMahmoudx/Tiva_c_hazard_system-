@@ -1,6 +1,6 @@
 # Hazard Detection System
 
-This project is a comprehensive hazard detection system consisting of two main components: a sender unit and a receiver unit. The sender unit utilizes Tiva C microcontroller along with various sensors to detect gas leaks, fires, window intrusions, and door openings. Upon detection of any hazard, it sends a signal via Li-Fi communication to the receiver unit.
+This project is for (CSE211:Introduction to Embedded Systems) course at Faculty of Engineering Ain Shams University. It is a comprehensive hazard detection system consisting of two main components: a sender unit and a receiver unit. The sender unit utilizes Tiva C microcontroller along with various sensors to detect gas leaks, fires, window intrusions, and door openings. Upon detection of any hazard, it sends a signal via Li-Fi communication to the receiver unit.
 
 ## Sender Unit Features:
 - **Tiva C Microcontroller**: Utilized as the main control unit for the sender unit.
